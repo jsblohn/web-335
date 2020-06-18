@@ -8,12 +8,14 @@
 # and https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior
 #==============================================================================
 
+# Create Variables for Heading
 first_name = "Janet"
 last_name = "Blohn"
-exercise = "Exercise 8.3"
+exercise = "Exercise 8.2"
 from datetime import date
 today=date.today()
 
+#Print Heading and "Hello World"
 print(first_name + " " + last_name)
 print(exercise)
 print(today.strftime("%B %d, %Y"))
